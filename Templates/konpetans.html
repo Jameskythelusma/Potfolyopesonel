@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black">
+
+    <!-- component -->
+    <section class=" w-full  flex flex-col items-center mb-6">
+        <div class=" w-full h-10 flex flex-row justify-between items-center p-8 md:p-12 ">
+            <div>
+                <h1 class="font-extrabold text-4xl text-[#ffc800]">JT</h1>
+            </div>
+            <div class="">
+                <a href="{% url 'home' %}" class="font-bold text-gray-100 mr-4">Akey</a>
+                <a href="{% url 'potfolyo' %}"class="font-bold text-gray-100 mr-4">Potflyo</a>
+                <a href="{% url 'konpetans' %}" class="font-bold text-gray-100 mr-4">Konpetans</a>
+                <a href="{% url 'apwopo' %}" class="font-bold text-gray-100 mr-4">Apwopo</a>
+                <a href="{% url 'kontak' %}" class="font-bold text-gray-100 mr-4">Kontak</a>
+            </div>
+
+        </div>
+        <div class="w-full p-3 flex flex-col gap-3   ">
+            <h1 class="text-4xl mb-5 text-[#ffc800] text-center font-bold uppercase">Konpetans</h1>
+
+            <div class=" flex flex-col items-center justify-center gap-4  folio md:flex-row md:flex-wrap">
+                <div class="items bg-white p-4 rounded-md md:w-[40.5%] ">
+                    <h1 class="text-2xl font-bold text-black mb-2">HTML</h1>
+                    <p class="text-1xl mb-6 font-semibold  md:text-lg lg:text-xl text-black">mwen
+                        yon langaj web pou modelize paj sit nou yo </p>
+                </div>
+
+                <div class="items bg-[#ffc800] p-4 rounded-md md:w-[40.5%] ">
+                    <h1 class="text-2xl text-white mb-2 font-bold">CSS
+                    </h1>
+                    <p class="text-1xl mb-6 font-semibold  md:text-lg lg:text-xl text-black">yon langaj poun bay pi bel estil ak sit la </p>
+                        
+
+                </div>
+
+                <div class="items bg-white p-4 rounded-md md:w-[40.5%] h-36 ">
+                    <h1 class="text-2xl font-bold text-black mb-2">Django</h1>
+                    <p class="text-1xl mb-6 font-semibold  md:text-lg lg:text-xl text-black">yon bel framework ki baze sou python pou devlope aplikasyon web</p>
+                </div>
+
+
+                <div class="items bg-[#ffc800] p-4 rounded-md md:w-[40.5%] h-36 ">
+                    <h1 class="text-2xl font-bold text-white mb-2">Python</h1>
+                    <p class="text-1xl mb-6 font-semibold  md:text-lg lg:text-xl text-black">yon langaj programsyon ki popile ,ke w ak fe preske tou bhy ak li 
+
+                    </p>
+                </div>
+
+                <div class="items bg-white p-4 rounded-md md:w-[40.5%] h-36 ">
+                    <h1 class="text-2xl font-bold text-black mb-2">SQl</h1>
+                    <p class="text-1xl mb-6 font-semibold  md:text-lg lg:text-xl text-black">langaj pou kominikasyon ak baz de done, enteraji ak done yo </p>
+                </div>
+
+                <div class="items bg-[#ffc800] p-4 rounded-md md:w-[40.5%] h-36 ">
+                    <h1 class="text-2xl font-bold text-white mb-2">Wordpress</h1>
+                    <p class="text-1xl mb-6 font-semibold  md:text-lg lg:text-xl text-black">yon platforme pou fe sit web san kode</p>
+                </div>
+
+                <div class="items bg-white p-4 rounded-md md:w-[40.5%] h-36 ">
+                    <h1 class="text-2xl font-bold text-black mb-2">Photoshop</h1>
+                    <p class="text-1xl mb-6 font-semibold  md:text-lg lg:text-xl text-black">logisyel pou fe bon deisign ,tankou flyers</p>
+                </div>
+
+                <div class="items bg-[#ffc800] p-4 rounded-md md:w-[40.5%] h-36 ">
+                    <h1 class="text-2xl font-bold text-white mb-2">Illustrator</h1>
+                    <p class="text-1xl mb-6 font-semibold  md:text-lg lg:text-xl text-black"> logijsye pou fe logo ,kat de vizit etc 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center text-white p-8">
+        <small>
+            <p>Copyright 2023 by jamesky Thelusma. All Rights Reserved.</p>
+        </small>
+    </footer>
+
+</body>
+
+</html>

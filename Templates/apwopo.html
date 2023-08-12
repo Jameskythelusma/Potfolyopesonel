@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black">
+
+ <!-- component -->
+ <section class=" w-full h-[100vh] flex flex-col items-center mb-6">
+    <div class=" w-full h-10 flex flex-row justify-between items-center p-8 md:p-12 ">
+        <div>
+            <h1 class="font-extrabold text-4xl text-[#ffc800]">JT</h1>
+        </div>
+        <div class="">
+            <a href="{% url 'home' %}" class="font-bold text-gray-100 mr-4">Akey</a>
+            <a href="{% url 'potfolyo' %}"class="font-bold text-gray-100 mr-4">Potflyo</a>
+            <a href="{% url 'konpetans' %}" class="font-bold text-gray-100 mr-4">Konpetans</a>
+            <a href="{% url 'apwopo' %}" class="font-bold text-gray-100 mr-4">Apwopo</a>
+            <a href="{% url 'kontak' %}" class="font-bold text-gray-100 mr-4">Kontak</a>
+        </div>
+
+    </div>
+    <div class="p-6 flex flex-col gap-3  md:flex-row   ">
+        <div class="md:w-3/5 rounded-lg">
+            <img src="https://i.pinimg.com/564x/6a/09/6e/6a096e9c7a16bbe60e037670609f62ef.jpg" alt="mockup"
+                class="rounded-lg w-4/5">
+        </div>
+
+        <div class="md:w-1/2">
+           
+            <p class="text-1xl mb-6 font-light  md:text-lg lg:text-xl text-white">mwen
+                Mwen se jamesky Thelusma, mwen fèt nan lane 99,mwen se yon jenn graphic designer,Web devlope . mwen angajem nan ede
+                antrepriz nan devlopman bon jan idantite vizyèl pou yon pi bon kominikasyon. Mwen renmen teknoloji, sa
+                pouse m etidye syans enfòmatik.</p>
+            <a href="#"
+                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-[#ffc800] rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                Kontaktem
+                <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+<footer class="text-center text-white p-8">
+    <small>
+        <p>Copyright 2023 by jamesky Thelusma. All Rights Reserved.</p>
+    </small>
+</footer>
+    </div>
+</body>
+
+</html>

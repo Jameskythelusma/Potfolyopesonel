@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black">
+
+    <!-- component -->
+    <section class=" w-full  flex flex-col items-center mb-6">
+        <div class=" w-full h-10 flex flex-row justify-between items-center p-8 md:p-12 ">
+            <div>
+                <h1 class="font-extrabold text-4xl text-[#ffc800]">JT</h1>
+            </div>
+            <div class="">
+                <a href="{% url 'home' %}" class="font-bold text-gray-100 mr-3">Akey</a>
+                <a href="{% url 'potfolyo' %}" class="font-bold text-gray-100 mr-3">Potflyo</a>
+                <a href="{% url 'konpetans' %}" class="font-bold text-gray-100 mr-3">Konpetans</a>
+                <a href="{% url 'apwopo' %}" class="font-bold text-gray-100 mr-3">Apwopo</a>
+                <a href="{% url 'kontak' %}" class="font-bold text-gray-100 mr-3">Kontak</a>
+            </div>
+
+        </div>
+        <div class="w-full h-[80vh] p-3 flex flex-col gap-3 items-center   ">
+            <h1 class="text-4xl mb-5 text-[#ffc800] text-center font-bold uppercase">Kontak</h1>
+            
+            <div class="p-8 w-full bg-white rounded-lg md:w-[60%] lg:w-[50%]">
+                <h2 class="text-black text-4xl font-bold">relem konya</h2>
+                <p class=" text-black"> <a href="tel:+509 32981235">+509 32981235</p></a>
+                <br>
+                <h2 class="text-black text-4xl font-bold">Voye yon imel</h2>
+                <p class=" text-black"> <a href="mailto:Jameskythelusma@hotmail.com">Jameskythelusma@hotmail.com</a></p></a>
+                <br>
+                <h2 class="text-black text-4xl font-bold">sosyal medya m yo</h2>
+                <p class=" text-black"> <a href="https://instagram.com/Jameskythelusma" target="_blank">instagram</a></p></a>
+                
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <footer class="text-center text-white p-8">
+        <small>
+            <p>Copyright 2023 by jamesky Thelusma. All Rights Reserved.</p>
+        </small>
+    </footer>
+
+</body>
+
+</html>
